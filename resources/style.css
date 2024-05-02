@@ -1,1 +1,94 @@
 /* Dont forget to reset your defaults (*) */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#e66465, #9198e5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Schibsted Grotesk', sans-serif;
+  font-size: 64px;
+  color: #b5baec;
+}
+
+h2 {
+  font-size: 48px;
+  font-family: 'Schibsted Grotesk', sans-serif;
+  color: beige;
+}
+
+h3 {
+  font-size: 32px;
+  font-family: 'Schibsted Grotesk', sans-serif;
+  color: beige;
+}
+
+ol {
+  list-style: square;
+  font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+#nav-bar {
+  display: flex;
+  /* Need to specify a width to have enough space 
+      to use justify-content */
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sea-scape {
+  width: 200px;
+  height: auto;
+}
+
+.right-nav a {
+  margin: 5px 10px;
+}
+
+.right-nav a:hover {
+  color: #b5baec;
+}
+
+.wrapper li {
+  margin: 5px auto;
+}
+
+#my-table {
+  max-width: 400px;
+  background-color: #b5baec;
+}
+
+/* To add a border, use the CSS border property on 
+  table, th, and td elements */
+table,
+th,
+td {
+  border: 1px solid black;
+  /* To avoid having double borders */
+  border-collapse: collapse;
+}
+
+form {
+  max-width: 450px;
+  border: 1px solid black;
+  background-color: #b5baec;
+  text-align: center;
+}
+
+label {
+  display: block;
+  text-align: left;
+}
+
+.btn {
+  margin: 5px auto;
+}
